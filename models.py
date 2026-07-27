@@ -4,6 +4,6 @@ from decimal import Decimal
 from pydantic import BaseModel
 
 
-class MeuModelo(BaseModel):
+class TransationType(BaseModel):
     valor: Decimal
     dataHora: datetime
